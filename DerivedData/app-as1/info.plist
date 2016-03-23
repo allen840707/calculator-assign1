@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>WorkspacePath</key>
-	<string>/Users/allen/Documents/xcode  3D/app-as1/app-as1.xcodeproj</string>
+	<string>../../app-as1.xcodeproj</string>
 </dict>
 </plist>

@@ -14,6 +14,8 @@
 		9F44BE2D1C9FDEB7009679A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F44BE2B1C9FDEB7009679A9 /* LaunchScreen.storyboard */; };
 		9F44BE381C9FDEB7009679A9 /* app_as1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BE371C9FDEB7009679A9 /* app_as1Tests.swift */; };
 		9F44BE431C9FDEB7009679A9 /* app_as1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BE421C9FDEB7009679A9 /* app_as1UITests.swift */; };
+		9F75BD3A1CA27F9200FBA716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BE221C9FDEB7009679A9 /* AppDelegate.swift */; };
+		9F75BD3B1CA27F9400FBA716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F44BE221C9FDEB7009679A9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F75BD3A1CA27F9200FBA716 /* AppDelegate.swift in Sources */,
 				9F44BE381C9FDEB7009679A9 /* app_as1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F75BD3B1CA27F9400FBA716 /* AppDelegate.swift in Sources */,
 				9F44BE431C9FDEB7009679A9 /* app_as1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				9F44BE491C9FDEB7009679A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F44BE4A1C9FDEB7009679A9 /* Build configuration list for PBXNativeTarget "app-as1Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				9F44BE4C1C9FDEB7009679A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F44BE4D1C9FDEB7009679A9 /* Build configuration list for PBXNativeTarget "app-as1UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				9F44BE4F1C9FDEB7009679A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

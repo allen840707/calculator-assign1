@@ -24,13 +24,6 @@
                                     <action selector="numtapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LxF-OM-ZLm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIE-px-Zmh">
-                                <rect key="frame" x="80" y="449" width="80" height="60"/>
-                                <state key="normal" title="2"/>
-                                <connections>
-                                    <action selector="numtapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qQr-BM-a81"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khz-fr-2Zn">
                                 <rect key="frame" x="240" y="449" width="80" height="60"/>
                                 <state key="normal" title="+"/>
@@ -115,13 +108,6 @@
                                     <action selector="caltap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voy-4E-PDY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbG-as-Cry">
-                                <rect key="frame" x="80" y="245" width="80" height="60"/>
-                                <state key="normal" title="+/-"/>
-                                <connections>
-                                    <action selector="ACcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWU-AQ-dOh"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yW-XN-Q2P">
                                 <rect key="frame" x="0.0" y="28" width="320" height="209"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -157,6 +143,20 @@
                                 <state key="normal" title="0"/>
                                 <connections>
                                     <action selector="numtapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xvD-Gv-GC5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIE-px-Zmh">
+                                <rect key="frame" x="80" y="449" width="80" height="60"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="numtapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qQr-BM-a81"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbG-as-Cry">
+                                <rect key="frame" x="80" y="245" width="80" height="60"/>
+                                <state key="normal" title="+/-"/>
+                                <connections>
+                                    <action selector="ACcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWU-AQ-dOh"/>
                                 </connections>
                             </button>
                         </subviews>
